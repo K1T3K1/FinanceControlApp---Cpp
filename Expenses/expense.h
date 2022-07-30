@@ -11,6 +11,7 @@ namespace Expenses
     class Expense
     {
     public:
+        Expense(float_precision cost, tm *date, EPaymentMethod pmethod);
         float_precision getExpenseCost(void);
         void setExpenseCost(float_precision costToSet);
         void getExpenseDate(tm *timeptr);

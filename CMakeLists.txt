@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.24)
 project(FinanceControl)
 
 # add the executable
-add_executable(FinanceControl.cxx)
+//add_executable(FinanceControl.cxx)
