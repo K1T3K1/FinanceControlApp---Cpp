@@ -1,32 +1,29 @@
-#include "expense.h"
-using namespace Expenses;
+#include "Expense.h"
 
-Expense::Expense(float_precision cost, tm *date, EPaymentMethod pmethod)
+namespace Expenses
 {
-    this->expenseCost = cost;
-    this->expenseDate = date;
-    this->paymentMethod = pmethod;
-}
+    Expense::Expense(std::string title, float_precision cost, tm* date)
+    {
+        this->expenseCost = cost;
+        this->expenseDate = date;
+    }
 
-float_precision Expense::getExpenseCost()
-{
-    return this->expenseCost;
-}
+    float_precision Expense::getExpenseCost()
+    {
+        return this->expenseCost;
+    }
 
-void Expense::setExpenseCost(float_precision costToSet)
-{
-    this->expenseCost = costToSet;
-}
+    void Expense::setExpenseCost(float_precision costToSet)
+    {
+        this->expenseCost = costToSet;
+    }
 
-void Expense::getExpenseDate(tm *timeptr)
-{
-    timeptr = this->expenseDate;
-}
-void Expense::setExpenseDate(tm *timeptr)
-{
-    this->expenseDate = timeptr;
-}
-EPaymentMethod Expense::getPaymentMethod()
-{
-    return this->paymentMethod;
+    void Expense::getExpenseDate(tm* timeptr)
+    {
+        *timeptr = *this->expenseDate;
+    }
+    void Expense::setExpenseDate(tm* timeptr)
+    {
+        this->expenseDate = timeptr;
+    }
 }
