@@ -1,0 +1,59 @@
+[33mcommit 40297aaf814fe7681d25880353b6156c912c734d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: K1T3K1 <89193001+K1T3K1@users.noreply.github.com>
+Date:   Wed Aug 3 15:50:35 2022 +0200
+
+    Delete expense.h
+
+[33mcommit 9d0ba203c893291be7c016ffdaf786bcb60e96a3[m
+Author: K1T3K1 <89193001+K1T3K1@users.noreply.github.com>
+Date:   Wed Aug 3 15:50:25 2022 +0200
+
+    Delete expense.cpp
+
+[33mcommit 44b60b23d6912a1e37f485ec6f4725a9f3086d8b[m
+Author: K1T3K1 <89193001+K1T3K1@users.noreply.github.com>
+Date:   Wed Aug 3 14:39:44 2022 +0200
+
+    Delete Account directory
+
+[33mcommit 619d7b2072a0e92511ec3f4be491e63eaf763ae6[m
+Author: K1T3K1 <89193001+K1T3K1@users.noreply.github.com>
+Date:   Wed Aug 3 14:37:54 2022 +0200
+
+    Delete main.cpp
+
+[33mcommit b056dd78c4ecd816a1189464f0b22e23ca1cc393[m
+Author: K1T3K1 <kp.zarzycki@gmail.com>
+Date:   Mon Aug 1 21:24:14 2022 +0200
+
+    x
+
+[33mcommit 8a4c9a842003ce29b06d515904a552078a806632[m
+Merge: ecb4bfd e1683fa
+Author: K1T3K1 <kp.zarzycki@gmail.com>
+Date:   Mon Aug 1 21:21:26 2022 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit ecb4bfd8a1910e76dc3de6caea929cd5c5880721[m
+Author: K1T3K1 <kp.zarzycki@gmail.com>
+Date:   Mon Aug 1 21:18:17 2022 +0200
+
+    Added Expense Manager
+
+[33mcommit e1683fa49ccf6d98b52b38636b7fdf5a91e5ffa4[m
+Author: K1T3K1 <kp.zarzycki@gmail.com>
+Date:   Sat Jul 30 23:38:26 2022 +0200
+
+    Added AccountManager Class
+    
+    Further changes to Account and Expense
+    Added AccountManager
+
+[33mcommit 3e8940a2457b4338d99548b9273804bf662dbdbb[m
+Author: K1T3K1 <kp.zarzycki@gmail.com>
+Date:   Sat Jul 30 17:44:41 2022 +0200
+
+    Initial commit
+    
+    Created Expenses and Accounts classes

@@ -3,7 +3,7 @@
 #include <fprecision.h>
 #include <stddef.h>
 #include <stdlib.h>
-#include "expense.h"
+#include "Expense.h"
 
 namespace Accounts
 {
@@ -12,10 +12,12 @@ namespace Accounts
     public:
         float_precision getBalance(void);
         void setBalance(float_precision balanceToSet);
-        virtual void deductExpense(Expenses::Expense expense) = 0;
+        void expenseToAdd(Expenses::Expense expense);
+        virtual void deductExpense(Expenses::Expense *expense) = 0;
 
     private:
         float_precision balance;
+        std::vector<Expenses::Expense *> associatedExpenses;
     };
 }
 #endif // ACCOUNT_H_

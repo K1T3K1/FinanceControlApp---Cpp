@@ -12,19 +12,19 @@ namespace Expenses
     class Expense
     {
     public:
-        Expense(std::string title, float_precision cost, tm* date);
+        Expense(std::string title, float_precision cost, tm *date);
         void setExpenseTitle(std::string titleToSet);
         std::string getExpenseTitle(void);
         float_precision getExpenseCost(void);
         void setExpenseCost(float_precision costToSet);
-        void getExpenseDate(tm* timeptr);
-        void setExpenseDate(tm* timeptr);
+        void getExpenseDate(tm *timeptr);
+        void setExpenseDate(tm *timeptr);
 
     protected:
-        //BMP expenseTypeImage;
+        // BMP expenseTypeImage;
         std::string expenseTitle;
         float_precision expenseCost;
-        tm* expenseDate;
+        tm *expenseDate;
     };
 }
 
